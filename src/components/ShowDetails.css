@@ -1,0 +1,44 @@
+
+.show-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 16px;
+    }
+  
+    p {
+      color: #333;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+  
+    button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  
+    a {
+      display: block;
+      margin-top: 16px;
+      color: #007bff;
+      text-decoration: none;
+      font-weight: bold;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
